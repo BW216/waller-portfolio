@@ -156,28 +156,13 @@
                                                 <!-- .contact-form -->
                                                 <div class="contact-form">
 
-                                                    <form id="contact-form" class="validate-form" method="POST" action="https://formspree.io/b.waller1@yahoo.com">
-
-                                                        <!-- enter mail subject here -->
-                                                        <input type="hidden" name="subject" id="subject" value="You have a new message!">
-
-                                                        <p>
-                                                          <input placeholder="Name" type="text" name="name" id="name" class="required">
-                                                        </p>
-
-                                                        <p>
-                                                          <input placeholder="Email" type="text" name="email" id="email" class="required email">
-                                                        </p>
-
-                                                        <p>
-                                                          <textarea placeholder="Message" name="message" id="message" class="required"></textarea>
-                                                        </p>
-
-                                                        <p>
-                                                          <button type="submit" name="button" class="submit button primary">Send</button>
-                                                        </p>
-
-                                                    </form>
+																									<form method="POST" action="https://formspree.io/b.waller1@yahoo.com">
+																										<input type="text" name="name" required placeholder="Name">
+																										<input type="email" name="email" required placeholder="Email">
+																										<input type="text" name="budget" placeholder="Budget">
+																										<textarea name="message" rows="12" required placeholder="Message"></textarea>
+																										<button type="submit" name="button">Send</button>
+																								</form>
 
                                                 </div>
                                                 <!-- .contact-form -->
